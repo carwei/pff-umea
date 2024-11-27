@@ -8,3 +8,5 @@ plugins:
 - jekyll-sass-converter
 - jekyll-assets
 custom_css: assets/css/custom.css
+sass:
+  sass_dir: assets/css
