@@ -1,0 +1,9 @@
+/* Ta bort knappen "View on GitHub" */
+.github-button {
+    display: none;
+}
+
+/* Dölj underhålls-texten i sidfoten */
+.footer-col-credits {
+    display: none;
+}
