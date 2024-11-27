@@ -1,12 +1,7 @@
 title: PeopleForFuture Umeå
 description: Hemsida för PeopleForFuture i Umeå
 remote_theme: pages-themes/cayman@v0.2.0
-sass:
-  style: compressed
 plugins:
 - jekyll-remote-theme
-- jekyll-sass-converter
-- jekyll-assets
-custom_css: assets/css/custom.css
 sass:
   sass_dir: assets/css
