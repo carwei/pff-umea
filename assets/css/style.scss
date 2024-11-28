@@ -3,19 +3,9 @@
 
 @import "{{ site.theme }}";
 
-// Dölj default footer
-footer {
-  display: none !important;
-}
-
-// Dölj knapp för "Visit on GitHub"
-.btn {
-  display: none !important;
-}
-
 // Navigeringsmeny
 nav {
-  background-color: #777;
+  background-color: #e9f502;
   padding: 10px;
 }
 
