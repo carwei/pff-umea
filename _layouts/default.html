@@ -20,15 +20,7 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Hem</a></li>
-        <li><a href="{{ '/swish' | relative_url }}">Swisha</a></li>
-        <li><a href="{{ '/medlem' | relative_url }}">Bli stödmedlem</a></li>
-        <li><a href="{{ '/polis' | relative_url }}">Polistillstånd</a></li>
-        <li><a href="{{ '/about' | relative_url }}">Om oss</a></li>
-      </ul>
-    </nav>
+    {% include navbar.html %}
 
     <main id="content" class="main-content" role="main">
       {{ content }}
