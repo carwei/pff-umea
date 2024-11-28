@@ -1,2 +1,1 @@
-# PeopleForFuture Umeå
 hello world
