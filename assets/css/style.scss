@@ -14,10 +14,12 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center; /* Centers the nav items horizontally */
+  align-items: center;    /* Vertically aligns the nav items if needed */
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 15px; /* Space between the items */
 }
 
 nav ul li a {
