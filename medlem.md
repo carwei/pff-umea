@@ -1,4 +1,4 @@
 <h1>Bli stödmedlem</h1>
 För att stötta vårt arbete har vi organiserat en formell ideell förening, som används för insamling av medel, hyra av lokaler, etc. Att vara med i stödföreningen är helt frivilligt. Det finns inga medlemsavgifter och i regel bara ett möte per år (årsmötet), där styrelsen väljs. Styrelsen ansvarar sedan för insamling av medel och godkännande av kostnader.
 
-Du kan registrera dig som medlem i stödföreningen [här](https://forms.gle/osvQvEPCuEPC5E2KA).
+Du kan registrera dig som medlem i stödföreningen <a href="https://forms.gle/osvQvEPCuEPC5E2KA" target="_blank">här</a>.
