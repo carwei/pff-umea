@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-// Navigeringsmeny
+/* Base styles */
 nav {
   background-color: #1A733F;
   padding: 10px;
@@ -14,12 +14,13 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center; /* Centers the nav items horizontally */
-  align-items: center;    /* Vertically aligns the nav items if needed */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 nav ul li {
-  margin: 0 15px; /* Space between the items */
+  margin: 0 15px;
 }
 
 nav ul li a {
@@ -30,4 +31,40 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+}
+
+/* Hide menu by default on small screens */
+#menu {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Show the menu button */
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Show menu on small screens */
+@media (max-width: 600px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu.open {
+    display: flex; /* Show menu when toggled */
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
 }
